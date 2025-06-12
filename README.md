@@ -13,53 +13,53 @@ This repository documents my journey through CS50x 2025.
 ### ⚙️ Week 0: **Scratch**
 - **Concepts**: Computer Science. Computational Thinking. Problem Solving: Inputs, Outputs. Representation: Unary, Binary, Decimal, ASCII, Unicode, RGB. Abstraction. Algorithms. Running Times. Pseudocode. Scratch: Functions, Arguments, Return Values; Variables; Boolean Expressions, Conditionals; Loops; Events; Threads.
 - **Problem Set**:
-  - `scratch`: Create a game or interactive story using [Scratch](https://scratch.mit.edu/) - (My scratch: https://scratch.mit.edu/projects/1166590737) 
+  - `scratch`[🔗](https://scratch.mit.edu/projects/1166590737): Create a game using [Scratch](https://scratch.mit.edu/) - (My scratch: ) 
 
 ---
 
 ### ⚙️ Week 1: **C - Basics**
 - **Concepts**: C. Source Code. Machine Code. Compiler. Correctness, Design, Style. Visual Studio Code. Syntax Highlighting. Escape Sequences. Header Files. Libraries. Manual Pages. Types. Conditionals. Variables. Loops. Linux. Graphical User Interface (GUI). Command-Line Interface (CLI). Constants. Comments. Pseudocode. Operators. Integer Overflow. Floating-Point Imprecision.
 - **Problem Set**:
-  - `hello`: Print a greeting, first C program
-  - `mario (less/more)`: Print Mario-style pyramids using loops and conditions
-  - `cash`: Calculate coins for change
-  - `credit`: Validate credit card numbers using Luhn’s algorithm
+  - `hello`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%201%20C%20-%20Basics/world/hello.c): Print a greeting, first C program
+  - `mario (less/more)`[🔗less](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%201%20C%20-%20Basics/mario-less/mario.c) [🔗more](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%201%20C%20-%20Basics/mario-more/mario.c): Print Mario-style pyramids using loops and conditions
+  - `cash`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%201%20C%20-%20Basics/cash): Calculate coins for change
+  - `credit`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%201%20C%20-%20Basics/credit): Validate credit card numbers using Luhn’s algorithm
 
 ---
 
 ### ⚙️ Week 2: **C - Arrays & Algorithms**
 - **Concepts**: Preprocessing. Compiling. Assembling. Linking. Debugging. Arrays. Strings. Command-Line Arguments. Cryptography.
 - **Problem Set**:
-  - `readability`: Implement the Coleman-Liau index to calculate grade level for a given text
-  - `caesar`: Caesar cipher (simple letter shifting cipher)
-  - `substitution`: Substitution cipher (improved cipher, substitutes letters based on a provided key)
+  - `readability`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%202%20C%20-%20Arrays%20%26%20Algorithms/readability/readability.c): Implement the Coleman-Liau index to calculate grade level for a given text
+  - `scrabble`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%202%20C%20-%20Arrays%20%26%20Algorithms/scrabble/scrabble.c): Program in C that determines the winner of a short Scrabble-like game
+  - `caesar`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%202%20C%20-%20Arrays%20%26%20Algorithms/caesar/caesar.c): Caesar cipher (simple letter shifting cipher)
+  - `substitution`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%202%20C%20-%20Arrays%20%26%20Algorithms/substitution/substitution.c): Substitution cipher (improved cipher, substitutes letters based on a provided key)
 
 ---
 
 ### ⚙️ Week 3: **C - Algorithms**
 - **Concepts**: Searching: Linear Search, Binary Search. Sorting: Bubble Sort, Selection Sort, Merge Sort. Asymptotic Notation. Recursion.
 - **Problem Set**:
-  - `sort`: Sorting algorithm: selection sort, bubble sort, or merge sort
-  - `plurality`: Simple plurality vote counter
-  - `runoff`: Instant-runoff voting system
-  - `tideman`: Ranked voting system
+  - `sort`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%203%20C%20-%20Algorithms/sort): Sorting algorithm: selection sort, bubble sort, or merge sort
+  - `plurality`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%203%20C%20-%20Algorithms/plurality/plurality.c): Simple plurality vote counter
+  - `runoff`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%203%20C%20-%20Algorithms/runoff/runoff.c): Instant-runoff voting system
 
 ---
 
 ### ⚙️ Week 4: **C - Memory**
 - **Concepts**: Pointers. Segmentation Faults. Dynamic Memory Allocation. Stack. Heap. Buffer Overflow. File I/O. Images.
 - **Problem Set**:
-  - `volume`: Write a program to modify the volume of a WAV audio file.
-  - `filter (less/more)`: Apply image filters
-  - `recover`: Recover JPEGs from memory card dump
+  - `volume`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%204%20C%20-%20Memory/volume/volume.c): Write a program to modify the volume of a WAV audio file.
+  - `filter`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%204%20C%20-%20Memory/filter-less): Apply image filters
+  - `recover`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%204%20C%20-%20Memory/recover/recover.c): Recover JPEGs from memory card dump
 
 ---
 
 ### ⚙️ Week 5: **Data Structures**
 - **Concepts**: Abstract Data Types. Queues, Stacks. Linked Lists. Trees, Binary Search Trees. Hash Tables. Tries.
 - **Problem Set**:
-  - `inheritance`: Program to simulate the inheritance of blood types for each member of a family.
-  - `speller`: Implement a program that spell-checks a file using a hash table.
+  - `inheritance`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%205%20C%20-%20Data%20Structures/inheritance/inheritance.c): Program to simulate the inheritance of blood types for each member of a family.
+  - `speller`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%205%20C%20-%20Data%20Structures/speller): Implement a program that spell-checks a file using a hash table.
 
 ---
 
