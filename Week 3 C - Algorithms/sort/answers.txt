@@ -1,0 +1,27 @@
+sort1 uses: bubble sort
+
+How do you know?:I've ran every program against every type of 50.000 number file and the results were:
+
+sort1 random50000 = 6,58
+sort2 random50000 = 0,367
+sort3 random50000 = 2,93
+
+sort1 sorted50000 = 0,350
+sort2 sorted50000 = 0,371
+sort3 sorted50000 = 2,667
+
+sort1 reversed50000 = 5,062
+sort2 reversed50000 = 0,358
+sort3 reversed50000 = 2,922
+
+It makes sense that bubble sort would be very slow on random and reversed but faster on sorted because since it compares adjacent numbers it needs fewer swaps for already sorted data in comparison
+to selection sort and merge sort.
+
+sort2 uses: merge sort
+
+How do you know?: It's the algorithm with the most consistent performance across all files, and the fastest, as we have seen at the end of the class [O(n log n)].
+
+sort3 uses: selection sort
+
+How do you know?: It makes sense that selection sort would be consistenly slow on every scenario because it will always perform the same number of comparisons regardless of input [O(n2)].
+
