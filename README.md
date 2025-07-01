@@ -66,12 +66,12 @@ This repository documents my journey through CS50x 2025.
 ### ⚙️ Week 6: **Python**
 - **Concepts**: Python: Functions, Arguments, Return Values; Variables; Boolean Expressions, Conditionals; Loops. Modules, Packages.
 - **Problem Set**:
-  - `hello`: Greet user in Python
-  - `mario (less/more)`: Print Mario-style pyramids using loops and conditions in Python
-  - `cash`:  Returns the minimum number of coins needed to make change. (In Ptyhon).
-  - `credit`: Validate credit card numbers using Luhn’s algorithm (in Python).
-  - `readability`: Implement the Coleman-Liau index to calculate grade level for a given text (in Python).
-  - `dna`: Implement a program that identifies to whom a sequence of DNA belongs.
+  - `hello`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%206%20Python/sentimental-hello/hello.py): Greet user in Python
+  - `mario (less/more)`[🔗less](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%206%20Python/sentimental-mario-less/mario.py) [🔗more](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%206%20Python/sentimental-mario-more/mario.py): Print Mario-style pyramids using loops and conditions in Python
+  - `cash`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%206%20Python/sentimental-cash/cash.py):  Returns the minimum number of coins needed to make change. (In Ptyhon).
+  - `credit`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%206%20Python/sentimental-credit/credit.py): Validate credit card numbers using Luhn’s algorithm (in Python).
+  - `readability`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/blob/main/Week%206%20Python/sentimental-readability/readability.py): Implement the Coleman-Liau index to calculate grade level for a given text (in Python).
+  - `dna`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%206%20Python/dna): Implement a program that identifies to whom a sequence of DNA belongs.
 
 ---
 
