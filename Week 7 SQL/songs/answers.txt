@@ -1,0 +1,28 @@
+1) The audio aura could be characterized with something resembling the following query:
+        SELECT AVG(energy), AVG (valence), AVG (danceability)
+        FROM songs
+        WHERE user_id = (SELECT id FROM users WHERE name = ?)
+        GROUP BY audio_aura
+        LIMIT 100
+
+   The ? is a placeholder value that should be replaced by the id or name of the user
+   requesting his wrapped.
+
+
+2) If we understand Audio Aura as moods, and we understand mood to be calculated only with avg energy,
+   valence and danceability, then we should not look at top 100 most listened songs for several reasons,
+   for example:
+
+        a) User might have an extremely bad(or good) month throughout the year where he uses Spotify a lot
+        or maybe he doesn't use it at all. Either way the mood of that month will be overrepresented
+        or not represented at all.
+
+        b) User might use the Spotify app during exercising, and maybe during exercising he always
+        listens to the same genre of music, no matter his mood. This will cause missrepresentation.
+
+        c) An all time favorite artist for the user might release an album in that year, that would mean that
+        music would be overplayed and overrepresented, no matter the user's mood.
+
+        d) User might play inspiring music to get motivated to endure a task, but in reality he is depressed
+        or feeling down, he listens to uplifting music to counter his true "aura".
+
