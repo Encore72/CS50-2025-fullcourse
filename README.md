@@ -78,9 +78,9 @@ This repository documents my journey through CS50x 2025.
 ### ⚙️ Week 7: **SQL**
 - **Concepts**: SQL: Tables; Types; Statements; Constraints; Indexes; Keywords, Functions; Transactions. Race Conditions. SQL Injection Attacks.
 - **Problem Set**:
-  - `songs`: Write SQL queries to answer questions about a database of the 100 most-streamed songs on Spotify in 2018.
-  - `movies`: Query a movie database
-  - `fiftyville`: Use SQL queries to solve a mystery by analyzing a database
+  - `songs`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%207%20SQL/songs): Write SQL queries to answer questions about a database of the 100 most-streamed songs on Spotify in 2018.
+  - `movies`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%207%20SQL/movies): Query a movie database
+  - `fiftyville`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%207%20SQL/fiftyville): Use SQL queries to solve a mystery by analyzing a database
 
 ---
 
