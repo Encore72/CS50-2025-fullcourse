@@ -1,0 +1,79 @@
+HTML tags used:
+
+    <link>
+
+    <script>
+
+    <div>
+
+    <header>
+
+    <h1>, <h2>, <h3>, <h4>
+
+    <a>
+
+    <span>
+
+    <img>
+
+    <main>
+
+    <section>
+
+    <ul>
+
+    <ol>
+
+    <li>
+
+    <p>
+
+    <label>
+
+    <input type="checkbox">
+
+    <br>
+
+
+CSS properties used:
+
+    background-color
+    box-shadow
+    border-radius
+    font-family
+    font-size
+    text-align
+    padding
+    margin
+    font-weight
+    letter-spacing
+    color
+    text-decoration
+    transition
+    display
+    align-items
+    justify-content
+    max-height
+    max-width
+    object-fit
+    list-style-type
+    padding-left
+    border-left
+    font-style
+    vertical-align
+    accent-color
+    width
+    height
+    text-decoration-line
+    margin-top
+    margin-bottom
+
+
+JavaScript / Bootstrap usage:
+
+    - Javascript: The website I choose didn't have much room for JS (mostly static website)
+                  but I thought it would be useful to add a budget helper on the equipment step.
+
+
+    - Bootstrap: Used the grid, button, badges, lists, fluid images from bootstrap, also some utility
+                 classes for spacing like mt-2 and mb-4.

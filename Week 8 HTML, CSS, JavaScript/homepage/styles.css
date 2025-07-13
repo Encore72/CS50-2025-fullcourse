@@ -1,0 +1,212 @@
+html {
+    background-color: rgb(21, 32, 43);
+}
+
+
+header {
+    background-color: rgb(10, 20, 30);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 45px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+body {
+    background-color: rgb(40, 55, 75);
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+h1 {
+    font-size: 38px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-size: 26px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(10, 20, 30, 0.5);
+    color: #ddd;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 25px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 1rem;
+    color: #ddd;
+    text-decoration: underline;
+    text-decoration-thickness: 2px
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 3px solid rgb(10, 20, 30, 0.5);
+    margin-top: 1rem;
+    color: #ddd;
+}
+
+p {
+    color: #ddd;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}
+
+.header {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.header a {
+    margin-top: 2rem;
+    text-decoration: none;
+    color: #f0f0f0;
+    transition: color 0.3s ease;
+}
+
+.header a:hover {
+    color: #66bfff;
+}
+
+.col-md-4 h2 a {
+    text-decoration: none;
+    color: #f0f0f0;
+    transition: color 0.3s ease;
+
+}
+
+.col-md-4 h2 a:hover {
+    color: #66bfff;
+}
+
+.intro-text {
+    font-size: 1rem;
+    color: #ddd;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.crossed {
+    text-decoration: line-through;
+    color: #ddd;
+}
+
+.container {
+    background-color: rgb(40, 55, 75);
+    margin: 2rem auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.btn-custom1 {
+    background-color: rgb(10, 20, 30, 0.5);
+    color: white;
+    border-radius: 25px;
+}
+
+.btn-custom1:hover {
+    background-color: rgb(10, 20, 30, 0.5);
+    color: #66bfff;
+    transition: color 0.3s ease;
+    border-radius: 25px;
+}
+
+.equipment-title {
+    font-weight: bold;
+    font-size 1.1rem;
+    color: #ddd;
+    font-size: 22px;
+}
+
+.equipment-description {
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 2px;
+    color: #ddd;
+    font-size: 16px;
+}
+
+.step-title {
+    font-weight: bold;
+    font-size 1.1rem;
+    color: #ddd;
+    font-size: 22px;
+}
+
+.step-description {
+    list-style-type: disc;
+    font-size: 0.9rem;
+    display: block;
+    margin-top: 2px;
+    color: #ddd;
+    font-size: 16px;
+}
+
+.list-group-item {
+    border: none;
+    background-color: rgb(40, 55, 75);
+    color: #ddd;
+}
+
+ol.list-group {
+    list-style-type: decimal inside;
+    padding-left: 40px;
+}
+
+.equipment-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.equipment-item img {
+    max-height: 120px;
+    object-fit: contain;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+
+.recommended-items {
+    font-style: italic;
+    border-left: 2px solid #28a745;
+    padding-left: 12px;
+    margin-top: 8px;
+    color: #155724;
+    font-size: 0.9rem;
+}
+
+img {
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+    border-radius: 8px;
+}
+
+input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    accent-color: green;
+    vertical-align: middle;
+    font-size: 0.5rem;
+}
+
+.small-label {
+    margin-bottom: 8px;
+    font-size: 0.8rem;
+    color: gray;
+}

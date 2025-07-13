@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <title>Step 1: The Equipment</title>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const checks = document.querySelectorAll('.item-check');
+            const totalSpan = document.getElementById('total');
+
+            checks.forEach(check => {
+                check.addEventListener('change', () => {
+                    let total = 0;
+                    checks.forEach(item => {
+                        if (item.checked) {
+                            total += Number(item.dataset.price);
+                        }
+                    });
+                    totalSpan.textContent = total;
+                });
+            });
+        });
+    </script>
+
+</head>
+
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>
+                <a href="index.html">TL:DR How to make good Espresso <br>
+                    <span class="badge bg-success mt-2" style="font-size: 0.7em; vertical-align: middle;">Budget
+                        Friendly Edition</span>
+                </a>
+            </h1>
+        </header>
+        <main>
+            <h2> Step 1: The Equipment </h2>
+
+            <h4> Basic </h4>
+            <ul class="list-group mb-4">
+                <li class="list-group-item">
+                    <div class="equipment-item">
+                        <div>
+                            <span class="equipment-title">Espresso Machine</span>
+                            <span class="equipment-description"> The best starter machine is the "De'longhi ECP 3420" in
+                                USA, which is called "De'longhi ECP 33.21" in Europe. You can find it for around
+                                100-120$. Honorable mention as well to the "De'longhi Dedica" which you can also find
+                                for around 100-140$. If you want to spend more but in budget, the "Breville Bambino"
+                                will be your best option. </span>
+                            <p class="recommended-items">
+                                Recommended purchase:
+                                <a href="https://amazon.es" target="_blank" rel="noopener noreferrer"> Sample item link
+                                </a>
+                            </p>
+                            <label class="small-label">
+                                <input type="checkbox" class="item-check" data-price="120"> Add to budget: De'longhi ECP
+                                3420 (120$)
+                            </label>
+                        </div>
+                        <img src="assets/img/placeholder.png" alt="This is a placeholder image">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="equipment-item">
+                        <div>
+                            <span class="equipment-title">Grinder</span>
+                            <span class="equipment-description"> Unless you want to roll with the presurized basket that
+                                comes with your espresso machine and pre-grounded coffee beans (it will already yield
+                                better results than your typical Nespresso pods), for the best results you will need a
+                                Grinder. In all fairness, the grinder is the most important element of your setup.
+                                Withouth a good grinder you won't be able to grind the beans fine enough, and you won't
+                                get good shots. The best price-quality grinder is the KINGRINDER K4 or KINGRINDER K6.
+                                You can find them for around 50-100$. Also honorable mention to the Baratza ESP (120$).
+                                <br> If you decide to get a grinder, you must at least get the 2 following advanced
+                                items. </span>
+                            <p class="recommended-items">
+                                Recommended purchase:
+                                <a href="https://amazon.es" target="_blank" rel="noopener noreferrer"> Sample item link
+                                </a>
+                            </p>
+                            <label class="small-label">
+                                <input type="checkbox" class="item-check" data-price="60"> Add to budget: KINGRINDER K4
+                                (60$)
+                            </label>
+                        </div>
+                        <img src="assets/img/placeholder.png" alt="This is a placeholder image">
+                    </div>
+                </li>
+            </ul>
+
+            <h4> Advanced </h4>
+            <ul class="list-group mb-4">
+                <li class="list-group-item">
+                    <div class="equipment-item">
+                        <div>
+                            <span class="equipment-title">Bottomless portafilter and Non-pressurized basket</span>
+                            <span class="equipment-description"> To better diagnose your shots, you will need a
+                                bottomless portafilter, this will allow you to directly see how your brew is pouring. To
+                                complement your bottomless portafilter you will need a non-pressurized basket, this will
+                                allow you to get the best out of your machine. Two non-pressurized baskets are
+                                recommended (single dose and double dose). </span>
+                            <p class="recommended-items">
+                                Recommended purchase:
+                                <a href="https://amazon.es" target="_blank" rel="noopener noreferrer"> Sample item link
+                                </a>
+                            </p>
+                            <label class="small-label">
+                                <input type="checkbox" class="item-check" data-price="15"> Add to budget: Bottomless
+                                portafilter + non-pressurized basket (15$)
+                            </label>
+                        </div>
+                        <img src="assets/img/placeholder.png" alt="This is a placeholder image">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="equipment-item">
+                        <div>
+                            <span class="equipment-title">Tamper</span>
+                            <span class="equipment-description"> A proper tamper to make sure your puck is compacted
+                                correctly and not cock-eyed is recommended. Better than the low quality plastic tamper
+                                that comes with your machine. </span>
+                            <p class="recommended-items">
+                                Recommended purchase:
+                                <a href="https://amazon.es" target="_blank" rel="noopener noreferrer"> Sample item link
+                                </a>
+                            </p>
+                            <label class="small-label">
+                                <input type="checkbox" class="item-check" data-price="5"> Add to budget: Tamper (5$)
+                            </label>
+                        </div>
+                        <img src="assets/img/placeholder.png" alt="This is a placeholder image">
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="equipment-item">
+                        <div>
+                            <span class="equipment-title">Precision Scale</span>
+                            <span class="equipment-description"> Consistency is key. The best way to obtain consistency
+                                is to always grind the same dose of coffee. You will not be able to consistenly get good
+                                shots if you are constantly brewing with different doses of coffee. </span>
+                            <p class="recommended-items">
+                                Recommended purchase:
+                                <a href="https://amazon.es" target="_blank" rel="noopener noreferrer"> Sample item link
+                                </a>
+                            </p>
+                            <label class="small-label">
+                                <input type="checkbox" class="item-check" data-price="10"> Add to budget: Precision
+                                Scale (10$)
+                            </label>
+                        </div>
+                        <img src="assets/img/placeholder.png" alt="This is a placeholder image">
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="equipment-item">
+                        <div>
+                            <span class="equipment-title">WDT Tool (Distribution Tool)</span>
+                            <span class="equipment-description"> Helpful and cheap item, will allow you to uncluster any
+                                clustered grinded coffee once it's in your basket. This will allow for even distribution
+                                of the water running through your puck, and a good extraction. </span>
+                            <p class="recommended-items">
+                                Recommended purchase:
+                                <a href="https://amazon.es" target="_blank" rel="noopener noreferrer"> Sample item link
+                                </a>
+                            </p>
+                            <label class="small-label">
+                                <input type="checkbox" class="item-check" data-price="3"> Add to budget: WDT Tool (3$)
+                            </label>
+                        </div>
+                        <img src="assets/img/placeholder.png" alt="This is a placeholder image">
+                    </div>
+                </li>
+
+                <li class="list-group-item">
+                    <div class="equipment-item">
+                        <div>
+                            <span class="equipment-title">Funnel Tool</span>
+                            <span class="equipment-description"> Another helpful and cheap item, will allow you better
+                                funnel your dose into your portafilter and basket to make sure you don't make a mess
+                                when wrinding into your portafilter or when using your WDT tool to distribute. </span>
+                            <p class="recommended-items">
+                                Recommended purchase:
+                                <a href="https://amazon.es" target="_blank" rel="noopener noreferrer"> Sample item link
+                                </a>
+                            </p>
+                            <label class="small-label">
+                                <input type="checkbox" class="item-check" data-price="3"> Add to budget: Funnel Tool
+                                (3$)
+                            </label>
+                        </div>
+                        <img src="assets/img/placeholder.png" alt="This is a placeholder image">
+                    </div>
+                </li>
+
+            </ul>
+            <h1>Total Estimated Equipment Cost: $<span id="total">0</span></h1>
+            <div class="text-center mt-4">
+                <a href="process.html" class="btn btn-custom1"> Go to: "Step 2: The Process"</a>
+            </div>
+    </div>
+    </main>
+    <footer class="text-center py-4 mt-5">
+        <p class="mb-1">&copy; 2025 TL:DR Espresso Guide. All rights reserved.</p>
+        <p class="mb-1">
+            <a href="mailto:hello@example.com">Contact us</a>
+        </p>
+    </footer>
+
+
+</body>
+
+</html>
