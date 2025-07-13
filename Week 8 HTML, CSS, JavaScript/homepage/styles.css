@@ -25,6 +25,7 @@ h1 {
     padding-bottom: 20px;
     font-weight: bold;
     letter-spacing: 3px;
+    color: #ddd;
 }
 
 h2 {
@@ -54,6 +55,14 @@ h4 {
     border-bottom: 3px solid rgb(10, 20, 30, 0.5);
     margin-top: 1rem;
     color: #ddd;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 22px;
+    border-bottom: 3px solid rgb(10, 20, 30, 0.5);
+    margin-top: 1rem;
+    color: #f5cba7;
 }
 
 p {
@@ -127,7 +136,7 @@ p {
 .equipment-title {
     font-weight: bold;
     font-size 1.1rem;
-    color: #ddd;
+    color: #f5cba7;
     font-size: 22px;
 }
 
@@ -142,7 +151,7 @@ p {
 .step-title {
     font-weight: bold;
     font-size 1.1rem;
-    color: #ddd;
+    color: #f5cba7;
     font-size: 22px;
 }
 
@@ -185,7 +194,7 @@ ol.list-group {
     border-left: 2px solid #28a745;
     padding-left: 12px;
     margin-top: 8px;
-    color: #155724;
+    color: #1fd741;
     font-size: 0.9rem;
 }
 
