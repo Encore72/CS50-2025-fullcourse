@@ -87,8 +87,8 @@ This repository documents my journey through CS50x 2025.
 ### ⚙️ Week 8: **HTML, CSS, JavaScript**
 - **Concepts**: Internet: Routers; TCP/IP; DNS. HTTP: URLs, GET, POST. HTML: Tags; Attributes. Servers. Regular Expressions. CSS: Properties; Selectors. Frameworks. JavaScript: Variables; Conditionals; Loops. Events.
 - **Problem Set**:
-  - `trivia`: Write a webpage that lets users answer trivia questions.
-  - `homepage`: Build a homepage using HTML, CSS, and JavaScript.
+  - `trivia`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%208%20HTML%2C%20CSS%2C%20JavaScript/trivia): Write a webpage that lets users answer trivia questions.
+  - `homepage`[🔗](https://github.com/Encore72/CS50-2025-fullcourse/tree/main/Week%208%20HTML%2C%20CSS%2C%20JavaScript/homepage): Build a homepage using HTML, CSS, and JavaScript.
 
 ---
 
